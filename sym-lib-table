@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Seeed XIAO")(type "KiCad")(uri "${KIPRJMOD}/libraries/OPL_Kicad_Library/Seeed Studio XIAO Series Library/Seeed_Studio_XIAO_Series.kicad_sym")(options "")(descr ""))
+  (lib (name "KBD")(type "KiCad")(uri "${KIPRJMOD}/libraries/KBD/kicad-symbols/kbd.kicad_sym")(options "")(descr ""))
+)
