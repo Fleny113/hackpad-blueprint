@@ -2972,7 +2972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c5447d7-7b98-458e-8907-450827c2e26c")
-		(property "Reference" "SW3"
+		(property "Reference" "SW4"
 			(at 220.98 100.33 0)
 			(effects
 				(font
@@ -3024,7 +3024,7 @@
 		(instances
 			(project "Hackpad"
 				(path "/a2f23f61-3e8c-4dfe-96db-54432bd0028a"
-					(reference "SW3")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -3319,7 +3319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b10ea04f-f6c7-4c91-9d5d-20f807268f06")
-		(property "Reference" "SW4"
+		(property "Reference" "SW3"
 			(at 220.98 87.63 0)
 			(effects
 				(font
@@ -3371,7 +3371,7 @@
 		(instances
 			(project "Hackpad"
 				(path "/a2f23f61-3e8c-4dfe-96db-54432bd0028a"
-					(reference "SW4")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
