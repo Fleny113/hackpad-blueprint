@@ -1853,7 +1853,7 @@
 		(path "/e159e6ad-e7ef-4fa6-8e9d-c10b87c486b5")
 		(sheetname "/")
 		(sheetfile "Hackpad.kicad_sch")
-		(attr smd)
+		(attr through_hole)
 		(fp_line
 			(start -8.89 8.509)
 			(end -8.89 -8.636)
@@ -3847,7 +3847,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3897.6378"
+		(gr_text "99"
 			(at 114.5 141.85 0)
 			(layer "User.4")
 			(uuid "3153dbf7-81f7-4b59-9611-54edf95d12fc")
@@ -3885,7 +3885,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2755.9055"
+		(gr_text "70"
 			(at 57.85 103 90)
 			(layer "User.4")
 			(uuid "8e1b3afe-34e1-46d1-977f-94837ff0b9d9")
