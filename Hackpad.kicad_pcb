@@ -833,7 +833,7 @@
 		(descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
 		(tags "rotary encoder")
 		(property "Reference" "SW6"
-			(at 2.8 -4.7 0)
+			(at -2 7.5 0)
 			(layer "F.SilkS")
 			(uuid "3eb467f7-4ac6-480d-86ab-bcead4717db1")
 			(effects
@@ -1253,7 +1253,7 @@
 		(descr "Connecteur 6 pins")
 		(tags "CONN DEV")
 		(property "Reference" "OL1"
-			(at 0 2.25 90)
+			(at -6.75 -2.75 180)
 			(layer "F.Fab")
 			(uuid "55893de8-4dfa-4293-ab04-359ac3eac18c")
 			(effects
@@ -1800,10 +1800,9 @@
 		(uuid "7201870c-b5b3-47a2-9d2d-7c6764c52256")
 		(at 114.84 78.5)
 		(property "Reference" "U1"
-			(at -10.995 -6.2125 0)
+			(at 10.16 -9.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "048521d5-598f-485d-b121-ab18dcbad60e")
 			(effects
 				(font
@@ -3796,10 +3795,22 @@
 		(layer "Edge.Cuts")
 		(uuid "e82b1f38-76ef-4634-8ca2-817b9bac4545")
 	)
-	(gr_text "XIAO HERE!"
-		(at 110.49 84 0)
+	(gr_text "Swuch\n"
+		(at 141 131 0)
 		(layer "F.SilkS")
-		(uuid "34c48de5-1a1c-4f43-83f3-7ab76802a374")
+		(uuid "0153971d-4b56-41fd-9aab-10a4dcaa052b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Spinny spinny"
+		(at 151 111 0)
+		(layer "F.SilkS")
+		(uuid "09be4cd4-94b5-400e-84bf-30d3caf6fc07")
 		(effects
 			(font
 				(size 1 1)
@@ -3809,14 +3820,228 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Fleny's pad"
-		(at 144 80.3 0)
+	(gr_text "5V"
+		(at 94 105.5 90)
+		(layer "F.SilkS")
+		(uuid "16db9000-3efa-4ca4-8296-5ff961e4133f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Click click"
+		(at 103.75 132.75 0)
+		(layer "F.SilkS")
+		(uuid "21df0c6d-352c-458f-89ea-4d402efb07d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 94 109.25 90)
+		(layer "F.SilkS")
+		(uuid "3148db36-d37b-4661-89ae-95f2c1d2518e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "XIAO HERE"
+		(at 108 86 0)
+		(layer "F.SilkS")
+		(uuid "34c48de5-1a1c-4f43-83f3-7ab76802a374")
+		(effects
+			(font
+				(size 1.7 1.7)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SDA"
+		(at 94 100 90)
+		(layer "F.SilkS")
+		(uuid "36d13c3c-675a-4bf1-b563-7057c5b9d2ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SCL"
+		(at 94 103.25 90)
+		(layer "F.SilkS")
+		(uuid "548d0d01-c7ee-4935-a2b4-de8af60a8e41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "USB C over here"
+		(at 109 69.864001 0)
+		(layer "F.SilkS")
+		(uuid "5a733e77-ee61-4ced-ab73-9f90bc5f11ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Swatch"
+		(at 121 131 0)
+		(layer "F.SilkS")
+		(uuid "62b1a704-2dc7-47c7-b6ea-a2e117f07304")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Furries :3"
+		(at 93 114 0)
+		(layer "F.SilkS")
+		(uuid "70b8f87f-fec4-48b2-8b7e-5e92eaff80ba")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Fleny's hackpad\nMedia\n"
+		(at 143 83 0)
 		(layer "F.SilkS")
 		(uuid "9000ffde-c21f-47af-a6a7-d0fedf3fcb2f")
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Oh\nLook\n\nEndless\nDoom"
+		(at 101.5 107.75 0)
+		(layer "F.SilkS")
+		(uuid "9560be09-a0c0-40e5-9246-dd62e3f2984e")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5V"
+		(at 133 71 0)
+		(layer "F.SilkS")
+		(uuid "98eb7b01-5b3a-4b55-b6c4-a6e4f4a1e2db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Swetch"
+		(at 77 107 0)
+		(layer "F.SilkS")
+		(uuid "9f624d37-83cb-4da2-9fdc-25d3c394106b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "FISH"
+		(at 114 94 0)
+		(layer "F.SilkS")
+		(uuid "a5b5c175-7765-486e-8e11-285e83fa217b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Switch"
+		(at 83 131 0)
+		(layer "F.SilkS")
+		(uuid "ae336bcf-70b9-4a90-9569-b041dbfe7c98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 131 74 0)
+		(layer "F.SilkS")
+		(uuid "c8facf50-1960-482a-a35b-5954b3f1a104")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Swotch"
+		(at 102 131 0)
+		(layer "F.SilkS")
+		(uuid "dbc127b3-9684-4810-8de9-4add635fa2e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Ninja Tuna"
+		(at 106 93 0)
+		(layer "F.SilkS")
+		(uuid "ef0960e4-764a-4a32-83b0-260ccdef5016")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
 			)
 			(justify left bottom)
 		)
