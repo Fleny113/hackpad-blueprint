@@ -1800,14 +1800,14 @@
 		(uuid "7201870c-b5b3-47a2-9d2d-7c6764c52256")
 		(at 114.84 78.5)
 		(property "Reference" "U1"
-			(at 10.16 -9.5 0)
+			(at 10.91 -9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "048521d5-598f-485d-b121-ab18dcbad60e")
 			(effects
 				(font
-					(size 0.635 0.635)
-					(thickness 0.1016)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
