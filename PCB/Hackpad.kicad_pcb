@@ -41,7 +41,7 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -72,9 +72,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "fabrication/")
 		)
 	)
 	(net 0 "")
@@ -1253,8 +1253,8 @@
 		(descr "Connecteur 6 pins")
 		(tags "CONN DEV")
 		(property "Reference" "OL1"
-			(at -6.75 -2.75 180)
-			(layer "F.Fab")
+			(at -6.75 -2.75 0)
+			(layer "F.SilkS")
 			(uuid "55893de8-4dfa-4293-ab04-359ac3eac18c")
 			(effects
 				(font
@@ -1310,7 +1310,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "Dwgs.User")
+			(layer "F.SilkS")
 			(uuid "10d13864-00e7-4f71-8e59-883446c27424")
 		)
 		(fp_line
@@ -1320,7 +1320,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "Dwgs.User")
+			(layer "F.SilkS")
 			(uuid "16b010a3-fb92-45f7-b41c-2b72fbefa800")
 		)
 		(fp_line
@@ -1330,7 +1330,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "Dwgs.User")
+			(layer "F.SilkS")
 			(uuid "0a8e7ecd-861d-4054-a711-d57ffce3c809")
 		)
 		(fp_line
@@ -1340,7 +1340,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "Dwgs.User")
+			(layer "F.SilkS")
 			(uuid "a7aeb1d2-bd84-4037-a02c-c2d38d6d1cf9")
 		)
 		(fp_line
